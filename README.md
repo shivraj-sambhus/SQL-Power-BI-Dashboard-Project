@@ -6,7 +6,7 @@ Linda Miller, an Operations Manager in the Marketing department. Her department 
 <img width="1039" height="5" alt="image" src="https://github.com/user-attachments/assets/05c53c7d-cad4-4d28-a1af-a651fa15be02" />
 
 <img width="1223" height="784" alt="image" src="https://github.com/user-attachments/assets/fe3ab9c2-dee2-44d6-9c57-466080d4ea93" />
-Emily Brown, a Manager in the Human Resources department. Her department yields an annual loss of $290,000.
+Emily Brown, the Manager of the Human Resources department. Her department yields an annual loss of $290,000.
 
 <img width="1039" height="5" alt="image" src="https://github.com/user-attachments/assets/40c119d5-d193-4a30-8be9-1a39664609ec" />
 
@@ -24,19 +24,31 @@ The provided folder of 7 datasets includes information about each department and
 
 2. `departments.csv' contains information on each department such as their bi-yearly budgets, number of employees, and objectives. There are 5 departments and each one has 2 employees in it. The dataset has 5 rows and 7 columns.
 
-3. `project_assignments' contains information on the project that each employee was assigned to. There are 10 projects, one for each employee. The dataset has 10 rows and 3 columns.
+3. `project_assignments.csv' contains information on the project that each employee was assigned to. There are 10 projects, one for each employee. The dataset has 10 rows and 3 columns.
 
-4. `upcoming_projects' contains information on the projects that are to be completed in the future. There are 6 upcoming projects, with timelines ranging from 2 to 6 months. The dataset has 6 rows and 7 columns.
+4. `upcoming_projects.csv' contains information on the projects that are to be completed in the future. There are 6 upcoming projects, with timelines ranging from 2 to 6 months. The dataset has 6 rows and 7 columns.
 
-5. `completed_projects' contains information on the projects that have been completed thus far. There are 4 completed projects, with a timeline of 1 year. The dataset has 4 rows and 6 columns.
+5. `completed_projects.csv' contains information on the projects that have been completed thus far. There are 4 completed projects, with a timeline of 1 year. The dataset has 4 rows and 6 columns.
 
-6. `projects' contains information on every project in the company. There are 10 assigned projects, and they include the completed projects and the upcoming ones. The dataset has 10 rows and 7 columns.
+6. `projects.csv' contains information on every project in the company. There are 10 assigned projects, and they include the completed projects and the upcoming ones. The dataset has 10 rows and 7 columns.
+
+7. `Head_Shots.csv' contains each employee's ID number and photo as displayed in their company profile. The datasset has 10 rows and 2 columns.
 
 <img width="1039" height="5" alt="image" src="https://github.com/user-attachments/assets/39ccb2c1-db20-44d0-8f52-ad5bc1627a9c" />
 
 # Methods
 
+I began my project by creating a cleaned dataset in Microsoft SQL of employee data, including their full names, job title, department name, total salary, assigned project, and so on. Before doing so, I needed to create a column called `status' in order to indicate if a given employee's project had been completed or not. To do this, I used a `union all' formula to make a dataset called `project_status' containing all projects and their completion status. I then named the status of each project as 'status'. Lastly, I created the final cleaned dataset by using inner joins, connecting the `employees', `project_assignments', and `project_status' datasets.
 
+<img width="1298" height="222" alt="image" src="https://github.com/user-attachments/assets/2200f416-fa7f-40d8-847e-21607148fd5c" />
+
+<img width="1039" height="5" alt="image" src="https://github.com/user-attachments/assets/e747e301-ec18-4948-a1d4-a62b956fdb71" />
+
+Then, I accessed this dataset in Power BI and began making the dashboard. To achieve this, I included text boxes for the employee details, bar charts for their project budgets and department budgets, and a pie chart for the project budget of each employee. 
+
+The main issues I faced in this project was separating the expenditure from the completed and uncompleted projects of each employee. This can be seen in the blue and grey ring of the pie chart. It includes the combined expenditure on completed and uncompleted projects but does not distingush the expenditure by employee.
+
+# Insights
 
 
 
