@@ -46,7 +46,7 @@ I began my project by creating a cleaned dataset in Microsoft SQL of employee da
 
 Then, I accessed this dataset in Power BI and began making the dashboard. To achieve this, I included text boxes for the employee details, bar charts for their project budgets and department budgets, a pie chart for the project budget of each employee, and a table outlining the employee's departmental performance. I made sure to include a column which records the annual budget of each project as the default budgets are set in biannual intervals.
 
-The main issues I faced in this project was separating the completed and upcoming project expenditure by each employee. This can be seen in the blue and grey ring of the pie chart. It includes the combined expenditure on completed and uncompleted projects but does not distingush the expenditure by employee. In other words, you can see how much the completed and upcoming projects cost the company but you cannot see the project costs incurred by each employee.
+The main issues I faced in this project was separating the completed and upcoming project expenditure by each employee. This can be seen in the blue and grey ring of the pie chart. It includes the company's overall expenditure on completed and uncompleted projects but does not distingush the expenditure by employee. In other words, you can see how much the completed and upcoming projects cost the company but you cannot see the project costs incurred by each employee.
 
 <img width="1039" height="5" alt="image" src="https://github.com/user-attachments/assets/7f893416-7892-4f1b-bea0-2a8a6a85e8a2" />
 
