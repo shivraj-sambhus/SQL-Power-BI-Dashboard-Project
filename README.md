@@ -38,7 +38,7 @@ The provided folder of 7 datasets includes information about each department and
 
 # Methods
 
-I began my project by creating a cleaned dataset in Microsoft SQL of employee data, including their full names, job title, department name, total salary, assigned project, and so on. Before doing so, I needed to create a column called `status' in order to indicate if a given employee's project had been completed or not. To do this, I used a `union all' formula to make a dataset called `project_status' containing all projects and their completion status. I then named the status of each project as 'status'. Lastly, I created the final cleaned dataset by using inner joins, connecting the `employees', `project_assignments', and `project_status' datasets.
+I began my project by creating a cleaned dataset in Microsoft SQL of employee data, including their full names, job title, department name, total salary, assigned projects, and so on. Before doing so, I needed to create a column called 'status' in order to indicate if a given employee's project had been completed or not. To do this, I used a 'union all' of the 'upcoming_projects' and 'completed_projects' to make a dataset called 'project_status' containing all projects and their completion status. I then named the status of each project as 'status'. Lastly, I created the final cleaned dataset by using inner joins, connecting the 'employees', 'project_assignments', and 'project_status' datasets.
 
 <img width="1298" height="222" alt="image" src="https://github.com/user-attachments/assets/2200f416-fa7f-40d8-847e-21607148fd5c" />
 
@@ -46,7 +46,7 @@ I began my project by creating a cleaned dataset in Microsoft SQL of employee da
 
 Then, I accessed this dataset in Power BI and began making the dashboard. To achieve this, I included text boxes for the employee details, bar charts for their project budgets and department budgets, and a pie chart for the project budget of each employee. 
 
-The main issues I faced in this project was separating the expenditure from the completed and uncompleted projects of each employee. This can be seen in the blue and grey ring of the pie chart. It includes the combined expenditure on completed and uncompleted projects but does not distingush the expenditure by employee.
+The main issues I faced in this project was separating the completed and upcoming project expenditure by each employee. This can be seen in the blue and grey ring of the pie chart. It includes the combined expenditure on completed and uncompleted projects but does not distingush the expenditure by employee. In other words, you can see how much the completed and upcoming projects cost the company but you cannot see the project costs incurred by each employee.
 
 # Insights
 
