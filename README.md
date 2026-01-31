@@ -6,7 +6,7 @@ Linda Miller, an Operations Manager in the Marketing department. Her department 
 <img width="1039" height="5" alt="image" src="https://github.com/user-attachments/assets/05c53c7d-cad4-4d28-a1af-a651fa15be02" />
 
 <img width="1223" height="784" alt="image" src="https://github.com/user-attachments/assets/fe3ab9c2-dee2-44d6-9c57-466080d4ea93" />
-Emily Brown, the Manager of the Human Resources department. Her department yields an annual loss of $290,000.
+Emily Brown, the Manager of the Human Resources department. Her department yields an annual loss of $290,000. The Human Resources department is greatly underperforming as compared to the Marketing department.
 
 <img width="1039" height="5" alt="image" src="https://github.com/user-attachments/assets/40c119d5-d193-4a30-8be9-1a39664609ec" />
 
