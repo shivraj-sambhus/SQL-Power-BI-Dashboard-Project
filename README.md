@@ -48,6 +48,9 @@ Then, I accessed this dataset in Power BI and began making the dashboard. To ach
 
 The main issues I faced in this project was separating the completed and upcoming project expenditure by each employee. This can be seen in the blue and grey ring of the pie chart. It includes the combined expenditure on completed and uncompleted projects but does not distingush the expenditure by employee. In other words, you can see how much the completed and upcoming projects cost the company but you cannot see the project costs incurred by each employee.
 
+<img width="1039" height="5" alt="image" src="https://github.com/user-attachments/assets/7f893416-7892-4f1b-bea0-2a8a6a85e8a2" />
+
+
 # Insights
 
 My main insight is that the Engineering department is the highest performing and is greatly over budget. Their annual revenue is $770,000, annual costs are $270,000, and have an annual budget of $1,200,000. There is a clear overallocation of funds for their departmental budgets and the company should reduce this amount immediately. In fact, all the departments are over budget and could benefit from a reallocation of funds. The second best performing department is Marketing, followed by Sales and IT. The Human Resources department is the least performing and contribute to a net loss for the company. This may be due to high employee turnover or due to poor hiring practices. In conclusion, each department is over budget and the current annual budget can cover all expenses, including project costs and employee salaries. The Human Resources department and the IT department are underperforming in comparison to the other departments and could benefit from restructuring.
