@@ -3,7 +3,7 @@
 <img width="1223" height="782" alt="image" src="https://github.com/user-attachments/assets/d2f6354a-1c48-43b7-b8cc-4368e0d10186" />
 Linda Miller, an Operations Manager in the Marketing department. Her department yields an annual profit of $96,000.
 
-<img width="1039" height="80" alt="image" src="https://github.com/user-attachments/assets/05c53c7d-cad4-4d28-a1af-a651fa15be02" />
+<img width="785" height="80" alt="image" src="https://github.com/user-attachments/assets/0f6d64be-9e35-443d-999d-83e6db400b09" />
 
 <img width="1223" height="784" alt="image" src="https://github.com/user-attachments/assets/fe3ab9c2-dee2-44d6-9c57-466080d4ea93" />
 Emily Brown, the Manager of the Human Resources department. Her department yields an annual loss of $290,000. The Human Resources department is greatly underperforming as compared to the Marketing department.
@@ -24,13 +24,13 @@ The provided folder of 7 datasets includes information about each department and
 
 2. `departments.csv' contains information on each department such as their bi-yearly budgets, number of employees, and objectives. There are 5 departments and each one has 2 employees in it. The dataset has 5 rows and 7 columns.
 
-3. `project_assignments.csv' contains information on the project that each employee was assigned to. There are 10 projects, one for each employee. The dataset has 10 rows and 3 columns.
+3. `project_assignments.csv' contains information on the projects that each employee was assigned to. There are 10 assigned projects, one for each employee. The dataset has 10 rows and 3 columns.
 
 4. `upcoming_projects.csv' contains information on the projects that are to be completed in the future. There are 6 upcoming projects, with timelines ranging from 2 to 6 months. The dataset has 6 rows and 7 columns.
 
 5. `completed_projects.csv' contains information on the projects that have been completed thus far. There are 4 completed projects, with a timeline of 1 year. The dataset has 4 rows and 6 columns.
 
-6. `projects.csv' contains information on every project in the company. There are 10 assigned projects, and they include the completed projects and the upcoming ones. The dataset has 10 rows and 7 columns.
+6. `projects.csv' contains information on every project in the company. There are 10 projects, and they include the completed and upcoming ones. The dataset has 10 rows and 7 columns.
 
 7. `Head_Shots.csv' contains each employee's ID number and photo as displayed in their company profile. The datasset has 10 rows and 2 columns.
 
